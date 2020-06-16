@@ -1,0 +1,507 @@
+---
+title: "Inglés - Español"
+output: learnr::tutorial
+runtime: shiny_prerendered
+---
+
+```{r setup, include=FALSE}
+library(learnr)
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+## A
+
+**Absolute beginner**: principiante absoluto. Ver también _false beginner_
+
+**Active learning**: aprendizaje activo. Ver también _passive learning_
+
+**Active teaching**: enseñanza activa. Ver también _passive teaching_.
+
+**Authentic task**: tarea auténtica.
+
+**Automaticity**: automaticidad. De forma automática. 
+
+## B
+
+**Backward design**: An instructional design method that
+works backwards from a summative assessment to formative assessments and thence
+to lesson content.
+
+**Behaviorism**: A theory of learning whose central principle
+is stimulus and response, and whose goal is to explain behavior without recourse
+to internal mental states or other unobservables. Ver también _cognitivism_.
+
+**Bloom's Taxonomy**: Taxonomía de Bloom. Ver también _Fink's Taxonomy_.
+
+**Brand**: marca. 
+
+## C
+
+**Calibrated peer review**: Having learners
+compare their reviews of sample work with a teacher's reviews before being
+allowed to review their peers' work.
+
+**Chunking**: Chunking. 
+
+**Co-teaching**: co-enseñanza. 
+
+**Cognitive apprenticeship**: A theory of
+learning that emphasizes the process of a master passing on skills and insights
+situationally to an apprentice.
+
+**Cognitive load**: Carga cognitiva.
+
+**Cognitivism**: A theory of learning that holds that mental
+states and processes can and must be included in models of learning. Ver también
+_behaviorism_.
+
+**Commons**: Commons
+
+**Community of practice**: Comunidad de práctica. Ver también _legitimate peripheral participation_.
+
+**Community representation**: Using cultural
+capital to highlight learners' social identities, histories, and community
+networks in learning activities.
+
+**Computational integration**: Using computing
+to re-implement pre-existing cultural artifacts, e.g.\ creating variants of
+traditional designs using computer drawing tools.
+
+**Competent practitioner**: Practicante competente.  Ver también
+_novice_ y _expert_.
+
+**Computational thinking**: Pensamiento computacional.
+
+**Concept inventory**: inventario de conceptos.
+
+**Concept map**: Mapa conceptual.
+
+**Connectivism**: Conectivismo.
+
+**Constructivism**: Constructivismo.
+
+**Content knowledge**: A person's understanding of a
+subject. Ver también _general pedagogical knowledge_
+y _pedagogical content knowledge_.
+
+**Contributing student pedagogy**: Having learners
+produce artifacts to contribute to others' learning.
+
+**Conversational programmer**: Someone who
+needs to know enough about computing to have a meaningful conversation with a
+programmer, but isn't going to program themselves.
+
+**CS Unplugged**: A style of teaching that introduces
+computing concepts using non-programming examples and artifacts.
+
+**CS0**: CS0. Introducción a las ciencias de la computación. 
+
+**CS1**: CS1. ciencias de la computación I.
+
+**CS2**: CS2. ciencias de la computación II.
+
+
+## D
+
+**Deficit model**: The idea that some groups are
+underrepresented in computing (or some other field) because their members lack
+some attribute or quality.
+
+**Deliberate practice**: The act of observing
+performance of a task while doing it in order to improve ability.
+
+**Demonstration lesson**: A staged lesson in which
+one teacher presents to actual learners while other teachers observe in order to
+learn new teaching techniques.
+
+**Diagnostic power**: The degree to which a wrong answer
+to a question or exercise tells the teacher what misconceptions a particular
+learner has.
+
+**Direct instruction**: A teaching method centered
+around meticulous curriculum design delivered through prescribed script.
+
+**Dunning-Kruger effect**: The tendency of people
+who only know a little about a subject to incorrectly estimate their
+understanding of it.
+
+## E
+
+**Educational psychology**: The study of how
+people learn. See also instructional-designinstructional design.
+
+**Ego depletion**: The impairment of self control resulting
+from prolonged or intensive use.  Recent work has failed to substantiate its
+existence.
+
+**Elevator pitch**: A short description of an idea,
+project, product, or person that can be delivered and understood in just a few
+seconds.
+
+**End-user programmer**: Someone who does not
+consider themselves a programmer, but who nevertheless writes and debugs
+software, such as an artist creating complex macros for a drawing tool.
+
+**End-user teacher**: By analogy with
+end-user programmer,
+someone who is teaching frequently, but whose primary occupation is not
+teaching, who has little or no background in pedagogy, and who may work outside
+institutional classrooms.
+
+**Expert**: Experto. Ver también _competent practitioner_ y _novice_.
+
+**Expert blind spot**: punto ciego del experto.
+
+**Expertise reversal effect**: The way in which
+instruction that is effective for novices becomes ineffective for competent
+practitioners or experts.
+
+**Externalized cognition:** The use of graphical,
+physical, or verbal aids to augment thinking.
+
+**Extraneous load**: carga extrínseca.
+
+**Extrinsic motivation**: Motivación extrínseca. Ver también _intrinsic motivation_.
+
+## F
+
+**Faded example**: A series of examples in which a steadily
+increasing number of key steps are blanked out. See
+also scaffolding.
+
+**False beginner**: Falso principiante. Ver también _absolute beginner_.
+
+**Far transfer**: The transfer of learning
+between widely-separated domains, e.g.\ improvement in math skills as a result
+of playing chess.
+
+**Fink's Taxonomy**: Taxonomía de Fink. Ver también _Bloom's Taxonomy_.
+
+**Fixed mindset**: The belief that an ability is innate,
+and that failure is due to a lack of some necessary attribute. See also
+growth-mindsetgrowth mindset.
+
+**Flipped classroom**: One in which learners watch
+recorded lessons on their own time, while class time is used to work through
+problem sets and answer questions.
+
+**Flow**: The feeling of being fully immersed in an activity;
+frequently associated with high productivity.
+
+**Fluid representation**: The ability to move
+quickly between different models of a problem.
+
+**Formative assessment**: Assessment that takes
+place during a lesson in order to give both the learner and the teacher
+feedback on actual understanding. See
+also summative-assessmentsummative assessment.
+
+**Free-range learner**: Someone learning outside an
+institutional classroom with required homework and mandated curriculum. (Those
+who use the term occasionally refer to learners in classrooms as
+``battery-farmed learners,'' but we don't because that would be rude.)
+
+**Fuzz testing**: A software testing technique based on
+generating and submitting random data.
+
+
+## G
+
+**General pedagogical knowledge**: A
+person's understanding of the general principles of teaching. See also
+content-knowledgecontent knowledge
+and pedagogical-content-knowledgepedagogical content knowledge.
+
+**Germane load**: carga pertinente.
+
+**Governance board**: A board whose primary responsibility is
+to hire, monitor, and if need be, fire the director.
+
+**Growth mindset The belief that ability comes with
+practice. See also fixed-mindsetfixed mindset.
+
+**Guided notes Teacher-prepared notes that cue
+learners to respond to key information in a lecture or discussion.
+
+
+## H
+
+**Hashing Generating a condensed pseudo-random digital key
+from data; any specific input produces the same output, but different inputs are
+highly likely to produce different outputs.
+
+**Hypercorrection effect The more strongly someone
+believed that their answer on a test was right, the more likely they are not to
+repeat the error once they discover that in fact they were wrong.
+
+
+## I
+
+**Implementation science The study of how to
+translate research findings to everyday clinical practice.
+
+**Impostor syndrome A feeling of insecurity about
+one's accomplishments that manifests as a fear of being exposed as a fraud.
+
+**Inclusivity Working actively to include people with
+diverse backgrounds and needs.
+
+**Inquiry-based learning The practice of
+allowing learners to ask their own questions, set their own goals, and find
+their own path through a subject.
+
+**Instructional design The craft of creating and
+evaluating specific lessons for specific audiences. See also
+educational-psychologyeducational psychology.
+
+**Intrinsic load The cognitive-loadcognitive load
+required to absorb new information.
+
+**Intrinsic motivation Being driven by enjoyment
+of a task or the satisfaction of doing it for its own sake.  See also
+extrinsic-motivationextrinsic motivation.
+
+**Intuition**: Intuición. 
+
+
+## J
+
+**Jugyokenkyu Literally ``lesson study,'' a set of
+practices that includes having teachers routinely observe one another and
+discuss lessons to share knowledge and improve skills.
+
+
+## K
+
+## L
+
+**Learned helplessness A situation in which
+people who are repeatedly subjected to negative feedback that they have no way
+to escape learn not to even try to escape when they could.
+
+**Learner persona**: persona tipo. 
+
+**Learning Management System (LMS): An application for tracking course
+enrollment, exercise submissions, grades, and other bureaucratic aspects of
+formal classroom learning.
+
+**Learning objective What a lesson is trying to
+achieve.
+
+**Learning outcome What a lesson actually achieves.
+
+**Legitimate peripheral
+  participation Newcomers' participation in simple, low-risk tasks that a
+community of practice recognizes as valid contributions.
+
+**Live coding**: programación en vivo. 
+
+**Long-term memory**: memoria de largo plazo. Ver también _short-term memory_.
+
+
+## M
+
+**Manual**: Manual. 
+
+**Marketing**: Marketing 
+
+**Massive Open Online Course (MOOC)**: Cursos on-line masivos. 
+
+**Mental model**: Modelo mental.
+
+**Metacognition**: Thinking about thinking.
+
+**Minimal manual**: An approach to training that breaks
+every task into single-page instructions that also explain how to diagnose and
+correct common errors.
+
+**Minute cards**: A feedback technique in which learners
+spend a minute writing one positive thing about a lesson (e.g.\ one thing
+they've learned) and one negative thing (e.g.\ a question that still hasn't been
+answered).
+
+
+## N
+
+near-transferNear transfer transfer-of-learningTransfer of learning
+between closely-related domains, e.g.\ improvement in understanding of decimals
+as a result of doing exercises with fractions.
+
+**Notional machine**: Máquina nocional.
+
+noviceNovice Someone who has not yet built a usable mental model of
+a domain. See also competent-practitionercompetent practitioner
+and expertexpert.
+
+
+## Ñ
+
+## O
+
+objects-firstObjects first An approach to teaching programming in
+which objects and classes are introduced early.
+
+
+
+## P
+pair-programmingPair programming A software development practice in
+which two programmers share one computer. One programmer (the driver) does the
+typing, while the other (the navigator) offers comments and suggestions in real
+time. Pair programming is often used as a teaching practice in programming
+classes.
+
+parsons-problemParsons Problem An assessment technique developed by
+Dale Parsons and others in which learners rearrange given material to construct
+a correct answer to a question~\citePars2006.
+
+passive-learningPassive learning An approach to instruction in which
+learners read, listen, or watch without immediately using new knowledge.
+Passive learning is less effective than active-learningactive
+learning.
+
+passive-teachingPassive teaching An approach to instruction in which
+the teacher does not adjust pace or examples, or otherwise act on feedback from
+learners, during the lesson.  See also active-teachingactive
+teaching.
+
+pedagogical-content-knowledgePedagogical content knowledge (PCK)
+The understanding of how to teach a particular subject, i.e.\ the best order in
+which to introduce topics and what examples to use. See also
+content-knowledgecontent knowledge
+and general-pedagogical-knowledgegeneral pedagogical knowledge.
+
+peer-instructionPeer instruction A teaching method in which an
+teacher poses a question and then learners commit to a first answer, discuss
+answers with their peers, and commit to a (revised) answer.
+
+persistent-memoryPersistent memory See long-term-memorylong-term memory.
+
+personalized-learningPersonalized learning Automatically tailoring
+lessons to meet the needs of individual learners.
+
+**Plausible distractor**: distractor pausible
+
+positioningPositioning What sets one brand apart from other,
+similar brands.
+
+preparatory-privilegePreparatory privilege The advantage of coming
+from a background that provides more preparation for a particular learning task
+than others.
+
+productive-failureProductive failure A situation in which learners
+are deliberately given problems that can't be solved with the knowledge they
+have and must go out and acquire new information in order to make progress.
+See also zpdZone of Proximal Development.
+
+pull-requestPull request A set of proposed changes to a GitHub
+repository that can be reviewed, updated, and eventually merged.
+
+
+
+## Q
+
+
+
+## R
+
+read-cover-retrieveRead-cover-retrieve A study practice in which
+the learner covers up key facts or terms during a first pass through material,
+then checks their recall on a second pass.
+
+reflective-practiceReflective practice
+See deliberate-practicedeliberate practice.
+
+reusability-paradoxReusability Paradox Holds that the more reusable
+part of a lesson is, the less pedagogically effective it is.
+
+
+## S
+
+**Scaffolding**: Extra material provided to early-stage
+learners to help them solve problems.
+
+**Screencast**: _agregada_
+
+**Search engine optimization**: Increasing the quantity and quality
+of web site traffic by making pages more easily found by, or seem more important
+to, search engines.
+
+**Service board**: A board whose members take on working roles
+in the organization.
+
+**Short-term memory**: The part of memory that briefly
+stores information that can be directly accessed by consciousness.
+
+**Situated learning**: A model of learning that focuses
+on people's transition from being newcomers to be accepted members of a
+community-of-practicecommunity of practice.
+
+**Split-attention effect**:  efecto de atención dividida.
+
+stereotype-threatStereotype threat A situation in which people feel
+that they are at risk of being held to stereotypes of their social group.
+
+subgoal-labelingSubgoal labeling Giving names to the steps in a
+step-by-step description of a problem-solving process.
+
+**Summative assessment**: Evaluación sumativa
+
+
+## T
+
+**Tangible artifact**: Something a learner can work on
+whose state gives feedback about the learner's progress and helps the learner
+diagnose mistakes.
+
+**Teaching to the test**: Any method of ``education''
+that focuses on preparing students to pass standardized tests, rather than on
+actual learning.
+
+**Test-driven development**: A software
+development practice in which programmers write tests first in order to give
+themselves concrete goals and clarify their understanding of what ``done'' looks
+like.
+
+**Think-pair-share**: A collaboration method in which
+each person thinks individually about a question or problem, then pairs with a
+partner to pool ideas, and then have one person from each pair present to the
+whole group.
+
+transfer-of-learningTransfer of learning Applying knowledge learned
+in one context to problems in another context.  See also
+near-transfernear transfer and far-transferfar transfer.
+
+transfer-appropriate-processingTransfer-appropriate processing The
+improvement in recall that occurs when practice uses activities similar to those
+used in testing.
+
+tutorialTutorial A lesson intended to help someone improve their
+general understanding of a subject.
+
+twitch-codingTwitch coding Having a group of people decide moment
+by moment or line by line what to add to a program next.
+
+
+## U
+
+## V
+
+
+
+## W
+
+working-memoryWorking memory see short-term-memoryshort-term memory.
+
+zpdZone of Proximal Development (ZPD) Includes the set of problems that
+people cannot yet solve on their own but are able to solve with assistance from
+a more experienced mentor.  See also productive-failureproductive
+failure.
+
+
+
+## X
+
+## Y
+
+## Z

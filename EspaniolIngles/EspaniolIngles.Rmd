@@ -1,0 +1,40 @@
+---
+title: "Español - Inglés"
+output: learnr::tutorial
+runtime: shiny_prerendered
+---
+
+```{r setup, include=FALSE}
+library(learnr)
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+## A
+
+## B
+
+## C
+## D
+## E
+## F
+## G
+## H
+## I
+## J
+## K
+## L
+## M
+## N
+## O
+## P
+## Q
+## R
+## S
+## T
+## U
+## V
+## W
+## X
+## Y
+## Z
