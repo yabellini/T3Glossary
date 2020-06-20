@@ -218,47 +218,46 @@ and pedagogical-content-knowledgepedagogical content knowledge.
 **Governance board**: A board whose primary responsibility is
 to hire, monitor, and if need be, fire the director.
 
-**Growth mindset The belief that ability comes with
+**Growth mindset**: The belief that ability comes with
 practice. See also fixed-mindsetfixed mindset.
 
-**Guided notes Teacher-prepared notes that cue
+**Guided notes**: Teacher-prepared notes that cue
 learners to respond to key information in a lecture or discussion.
 
 
 ## H
 
-**Hashing Generating a condensed pseudo-random digital key
+**Hashing**: Generating a condensed pseudo-random digital key
 from data; any specific input produces the same output, but different inputs are
 highly likely to produce different outputs.
 
-**Hypercorrection effect The more strongly someone
+**Hypercorrection effect**: The more strongly someone
 believed that their answer on a test was right, the more likely they are not to
 repeat the error once they discover that in fact they were wrong.
 
 
 ## I
 
-**Implementation science The study of how to
+**Implementation science**: The study of how to
 translate research findings to everyday clinical practice.
 
-**Impostor syndrome A feeling of insecurity about
-one's accomplishments that manifests as a fear of being exposed as a fraud.
+**Impostor syndrome**: Síndrome del impostor
 
-**Inclusivity Working actively to include people with
+**Inclusivity**: Working actively to include people with
 diverse backgrounds and needs.
 
-**Inquiry-based learning The practice of
+**Inquiry-based learning**: The practice of
 allowing learners to ask their own questions, set their own goals, and find
 their own path through a subject.
 
-**Instructional design The craft of creating and
+**Instructional design**: The craft of creating and
 evaluating specific lessons for specific audiences. See also
 educational-psychologyeducational psychology.
 
-**Intrinsic load The cognitive-loadcognitive load
+**Intrinsic load**: The cognitive-loadcognitive load
 required to absorb new information.
 
-**Intrinsic motivation Being driven by enjoyment
+**Intrinsic motivation**: Being driven by enjoyment
 of a task or the satisfaction of doing it for its own sake.  See also
 extrinsic-motivationextrinsic motivation.
 
@@ -267,7 +266,7 @@ extrinsic-motivationextrinsic motivation.
 
 ## J
 
-**Jugyokenkyu Literally ``lesson study,'' a set of
+**Jugyokenkyu**: Literally ``lesson study,'' a set of
 practices that includes having teachers routinely observe one another and
 discuss lessons to share knowledge and improve skills.
 
@@ -276,23 +275,22 @@ discuss lessons to share knowledge and improve skills.
 
 ## L
 
-**Learned helplessness A situation in which
+**Learned helplessness**: A situation in which
 people who are repeatedly subjected to negative feedback that they have no way
 to escape learn not to even try to escape when they could.
 
 **Learner persona**: persona tipo. 
 
-**Learning Management System (LMS): An application for tracking course
+**Learning Management System (LMS)**: An application for tracking course
 enrollment, exercise submissions, grades, and other bureaucratic aspects of
 formal classroom learning.
 
-**Learning objective What a lesson is trying to
+**Learning objective**: What a lesson is trying to
 achieve.
 
-**Learning outcome What a lesson actually achieves.
+**Learning outcome**: What a lesson actually achieves.
 
-**Legitimate peripheral
-  participation Newcomers' participation in simple, low-risk tasks that a
+**Legitimate peripheral participation**: Newcomers' participation in simple, low-risk tasks that a
 community of practice recognizes as valid contributions.
 
 **Live coding**: programación en vivo. 
@@ -324,13 +322,13 @@ answered).
 
 ## N
 
-near-transferNear transfer transfer-of-learningTransfer of learning
+**Near transfer transfer-of-learningTransfer of learning
 between closely-related domains, e.g.\ improvement in understanding of decimals
 as a result of doing exercises with fractions.
 
 **Notional machine**: Máquina nocional.
 
-noviceNovice Someone who has not yet built a usable mental model of
+**Novice**: Someone who has not yet built a usable mental model of
 a domain. See also competent-practitionercompetent practitioner
 and expertexpert.
 
@@ -339,62 +337,60 @@ and expertexpert.
 
 ## O
 
-objects-firstObjects first An approach to teaching programming in
+**Objects first**: An approach to teaching programming in
 which objects and classes are introduced early.
 
 
 
 ## P
-pair-programmingPair programming A software development practice in
+**Pair programming**: A software development practice in
 which two programmers share one computer. One programmer (the driver) does the
 typing, while the other (the navigator) offers comments and suggestions in real
 time. Pair programming is often used as a teaching practice in programming
 classes.
 
-parsons-problemParsons Problem An assessment technique developed by
-Dale Parsons and others in which learners rearrange given material to construct
-a correct answer to a question~\citePars2006.
+**Parsons Problem**: Problemas de Parsons
 
-passive-learningPassive learning An approach to instruction in which
+**Passive learning**: An approach to instruction in which
 learners read, listen, or watch without immediately using new knowledge.
 Passive learning is less effective than active-learningactive
 learning.
 
-passive-teachingPassive teaching An approach to instruction in which
+**Passive teaching**: An approach to instruction in which
 the teacher does not adjust pace or examples, or otherwise act on feedback from
 learners, during the lesson.  See also active-teachingactive
 teaching.
 
-pedagogical-content-knowledgePedagogical content knowledge (PCK)
+**Pedagogical content knowledge (PCK)**:
 The understanding of how to teach a particular subject, i.e.\ the best order in
 which to introduce topics and what examples to use. See also
 content-knowledgecontent knowledge
 and general-pedagogical-knowledgegeneral pedagogical knowledge.
 
-peer-instructionPeer instruction A teaching method in which an
+**Peer instruction**: A teaching method in which an
 teacher poses a question and then learners commit to a first answer, discuss
 answers with their peers, and commit to a (revised) answer.
 
-persistent-memoryPersistent memory See long-term-memorylong-term memory.
+**Persistent memory**: See long-term-memorylong-term memory.
 
-personalized-learningPersonalized learning Automatically tailoring
+**Personalized learning**: Automatically tailoring
 lessons to meet the needs of individual learners.
 
 **Plausible distractor**: distractor pausible
 
-positioningPositioning What sets one brand apart from other,
+**Positioning**: What sets one brand apart from other,
 similar brands.
 
-preparatory-privilegePreparatory privilege The advantage of coming
+**Preparatory privilege**: The advantage of coming
 from a background that provides more preparation for a particular learning task
 than others.
 
-productive-failureProductive failure A situation in which learners
+**Productive failure**: A situation in which learners
 are deliberately given problems that can't be solved with the knowledge they
 have and must go out and acquire new information in order to make progress.
 See also zpdZone of Proximal Development.
 
-pull-requestPull request A set of proposed changes to a GitHub
+**Pull request**: A set of proposed changes to a GitHub
 repository that can be reviewed, updated, and eventually merged.
 
 
@@ -405,14 +401,14 @@ repository that can be reviewed, updated, and eventually merged.
 
 ## R
 
-read-cover-retrieveRead-cover-retrieve A study practice in which
+**Read-cover-retrieve**: A study practice in which
 the learner covers up key facts or terms during a first pass through material,
 then checks their recall on a second pass.
 
-reflective-practiceReflective practice
+**Reflective practice**:
 See deliberate-practicedeliberate practice.
 
-reusability-paradoxReusability Paradox Holds that the more reusable
+**Reusability Paradox**: Holds that the more reusable
 part of a lesson is, the less pedagogically effective it is.
 
 
@@ -439,10 +435,10 @@ community-of-practicecommunity of practice.
 
 **Split-attention effect**:  efecto de atención dividida.
 
-stereotype-threatStereotype threat A situation in which people feel
+**Stereotype threat**: A situation in which people feel
 that they are at risk of being held to stereotypes of their social group.
 
-subgoal-labelingSubgoal labeling Giving names to the steps in a
+**Subgoal labeling**: Giving names to the steps in a
 step-by-step description of a problem-solving process.
 
 **Summative assessment**: Evaluación sumativa
@@ -468,18 +464,17 @@ each person thinks individually about a question or problem, then pairs with a
 partner to pool ideas, and then have one person from each pair present to the
 whole group.
 
-transfer-of-learningTransfer of learning Applying knowledge learned
+**Transfer of learning**: Applying knowledge learned
 in one context to problems in another context.  See also
 near-transfernear transfer and far-transferfar transfer.
 
-transfer-appropriate-processingTransfer-appropriate processing The
+**Transfer-appropriate processing**: The
 improvement in recall that occurs when practice uses activities similar to those
 used in testing.
 
-tutorialTutorial A lesson intended to help someone improve their
-general understanding of a subject.
+**Tutorial**: Tutorial 
 
-twitch-codingTwitch coding Having a group of people decide moment
+**Twitch coding**: Having a group of people decide moment
 by moment or line by line what to add to a program next.
 
 
@@ -491,9 +486,9 @@ by moment or line by line what to add to a program next.
 
 ## W
 
-working-memoryWorking memory see short-term-memoryshort-term memory.
+**Working memory see short-term-memoryshort-term memory**:
 
-zpdZone of Proximal Development (ZPD) Includes the set of problems that
+**Zone of Proximal Development (ZPD)**: Includes the set of problems that
 people cannot yet solve on their own but are able to solve with assistance from
 a more experienced mentor.  See also productive-failureproductive
 failure.
