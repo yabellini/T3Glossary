@@ -16,8 +16,6 @@ library(readxl)
 GlosarioT3 <- read_excel("files/GlosarioT3.xlsx")
 
 
-file.create("glossaryT3.yml")
-
 glosario<-file("glossaryT3.yml",encoding = "UTF-8")
 
 # Creo el ID
@@ -39,11 +37,11 @@ yamlacronym <- GlosarioT3 %>%
 yamlacronymref <- GlosarioT3 %>%
   # tiene acronimos pero tiene referencias
   filter(!is.na(acronym) & !is.na(ref_en_a)) %>%
-  str_glue_data('- slug: {slug} \n en:\n    term: "{term_en}" \n    acronym: {acronym}\n    def: > \n {def_en} \n    ref: \n     - {ref_en_a}\n {ifelse(!is.na(ref_en_b),"    - {ref_en_b}\n","")} es:\n    term: "{term_es}" \n    acronym: {acronym}\n    def: > \n {def_es}\n')
+  str_glue_data('- slug: {slug} \n en:\n    term: "{term_en}" \n    acronym: {acronym}\n    def: > \n {def_en} \n    ref: \n     - {ref_en_a}\n {ifelse(!is.na(ref_en_b),paste0("    - ", {ref_en_b}, "\n"),"")} es:\n    term: "{term_es}" \n    acronym: {acronym}\n    def: > \n {def_es}\n    ref: \n     - {ref_es_a}\n {ifelse(!is.na(ref_es_b),paste0("    - ", {ref_es_b}, "\n"),"")}')
 
   
 yamlref <- GlosarioT3 %>%
-  # tiene referencias y not tiene acrónimos
+  # tiene referencias y no tiene acrónimos
   filter(!is.na(ref_en_a) & is.na(acronym)) %>%
   str_glue_data('- slug: {slug} \n en:\n    term: "{term_en}" \n    def: > \n {def_en} \n    ref: \n     - {ref_en_a}\n {ifelse(!is.na(ref_en_b),paste0("    - ", {ref_en_b}, "\n"),"")} es:\n    term: "{term_es}" \n        def: > \n {def_es}\n    ref: \n     - {ref_es_a}\n {ifelse(!is.na(ref_es_b),paste0("    - ", {ref_es_b}, "\n"),"")}')
   
@@ -52,12 +50,8 @@ yamldef <- GlosarioT3 %>%
   #Solo tiene definición
   str_glue_data('- slug: {slug} \n en:\n    term: "{term_en}" \n    def: > \n {def_en} \n es:\n    term: "{term_es}" \n    def: > \n {def_es}\n')
 
-writeLines(yamlacronym,glosario)
+yaml <- c(yamlacronym, yamlacronymref, yamldef, yamldef)
 
-writeLines(yamlacronymref,glosario)
-
-writeLines(yamldef,glosario)
-
-writeLines(yamlref,glosario)
+writeLines(yaml,glosario)
 
 close(glosario)
