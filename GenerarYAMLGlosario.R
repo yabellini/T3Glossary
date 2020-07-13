@@ -13,7 +13,8 @@
 
 library(tidyverse)
 library(readxl)
-GlosarioT3 <- read_excel("files/GlosarioT3.xlsx")
+GlosarioT3 <- read_excel("files/GlosarioT3.xlsx", 
+                         sheet = "Lexicon")
 
 
 glosario<-file("glossaryT3.yml",encoding = "UTF-8")
@@ -22,7 +23,8 @@ glosario<-file("glossaryT3.yml",encoding = "UTF-8")
 
 GlosarioT3 <- GlosarioT3 %>%
   mutate(slug = str_replace_all(term_en, " ", "_"),
-         slug = str_replace_all(slug, "'", "_"))
+         slug = str_replace_all(slug, "'", "_"),
+         slug = str_replace_all(slug, "-", "_"))
   
 
 # Armado del YAML
@@ -72,14 +74,38 @@ yamlacronymref <- GlosarioT3 %>%
 yamlref <- GlosarioT3 %>%
   # tiene referencias y no tiene acrónimos
   filter(!is.na(ref_en_a) & is.na(acronym)) %>%
-  str_glue_data('- slug: {slug} \n  en:\n    term: "{term_en}" \n    def: > \n      {def_en} \n    ref: \n     - {ref_en_a}\n {ifelse(!is.na(ref_en_b),paste0("    - ", {ref_en_b}, "\n"),"")}  es:\n    term: "{term_es}" \n        def: > \n      {def_es}\n    ref: \n     - {ref_es_a}\n {ifelse(!is.na(ref_es_b),paste0("    - ", {ref_es_b}, "\n"),"")}\n')
-  
+  str_glue_data('
+- slug: {slug}
+  en:
+    term: "{term_en}"
+    def: >
+     {def_en}
+    ref:
+      - {ref_en_a}{ifelse(!is.na(ref_en_b),paste0("\n      - ", {ref_en_b}),"")}  
+  es:
+    term: "{term_es}"
+    def: >
+     {def_es}
+    ref:
+     - {ref_es_a}{ifelse(!is.na(ref_es_b),paste0("\n     - ", {ref_es_b}),"")}\n
+')
+
 yamldef <- GlosarioT3 %>%
   filter(is.na(acronym) & is.na(ref_en_a)) %>%
   #Solo tiene definición
-  str_glue_data('- slug: {slug} \n  en:\n    term: "{term_en}" \n    def: > \n      {def_en} \n  es:\n    term: "{term_es}" \n    def: > \n     {def_es}\n\n')
+  str_glue_data('
+- slug: {slug}
+  en:
+    term: "{term_en}"
+    def: >
+     {def_en}
+  es:
+    term: "{term_es}"
+    def: >
+     {def_es}\n
+')
 
-yaml <- c(yamlacronym, yamlacronymref, yamldef, yamldef)
+yaml <- c(yamlacronym, yamlacronymref, yamldef, yamlref)
 
 writeLines(yaml,glosario)
 
