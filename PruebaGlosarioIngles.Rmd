@@ -1,0 +1,60 @@
+---
+title: "Glossary-Glosario T3"
+output:
+  html_document:
+    df_print: paged
+    toc: true     
+    toc_depth: 2
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(readxl)
+library(DT)
+GlosarioT3rmd <- read_excel("files/GlosarioT3.xlsx", 
+                         sheet = "LexiconTraduccion")
+
+```
+
+## English
+
+```{r echo=FALSE}
+Englishorder <- GlosarioT3rmd %>%
+  arrange(term_en) %>%
+  mutate(term = term_en, 
+         acronym, 
+         definition = def_en, 
+         reference = paste0(.$ref_en_a,.$ref_en_b)) %>%
+  mutate(reference = str_replace_all(.$reference,"NA","")) %>%
+  select(term, acronym, definition, reference)
+
+datatable(Englishorder)
+```
+
+## Español
+```{r echo=FALSE}
+Spanishorder <- GlosarioT3rmd %>%
+  arrange(term_es) %>%
+  mutate(termino = term_es, 
+         acronimo = acronym, 
+         definicion = def_es, 
+         referencias = paste0(.$ref_es_a,.$ref_es_b)) %>%
+  mutate(referencias = str_replace_all(.$referencias,"NA","")) %>%
+  select(termino, acronimo, definicion, referencias)
+
+datatable(Spanishorder)
+```
+
+## Inglés-Español | English-Spanish
+
+```{r echo=FALSE}
+both_languages <- GlosarioT3rmd %>%
+  arrange(term_en) %>%
+  mutate(term = term_en, 
+         termino = term_es, 
+         acronym) %>%
+  select(term, termino, acronym)
+
+datatable(both_languages)
+```
